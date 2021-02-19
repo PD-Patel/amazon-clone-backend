@@ -1,0 +1,32 @@
+.header {
+  background-color: #171c24;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 900px;
+}
+.header-logo {
+  width: 110px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.header-right {
+  color: white;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.lineOne {
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+
+.lineTwo {
+  font-size: 16px;
+  font-weight: 600;
+}

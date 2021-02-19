@@ -1,0 +1,55 @@
+.user_components {
+  border: 1px solid lightgray;
+  width: 920px;
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.users_info_heading {
+  display: flex;
+
+  margin-top: 10px;
+  border: 1px solid lightsteelblue;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+.user_components > h1 {
+  font-size: 32px;
+  font-weight: 400;
+  border-bottom: 1px solid lightskyblue;
+  padding-bottom: 10px;
+}
+
+.users_info {
+  display: flex;
+
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid lightgray;
+}
+
+.email_title {
+  width: 400px;
+}
+
+.user_email {
+  text-transform: capitalize;
+  font-size: 14px;
+  width: 400px;
+}
+.user_uid {
+  text-transform: capitalize;
+  font-size: 14px;
+}

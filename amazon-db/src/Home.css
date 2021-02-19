@@ -1,0 +1,5 @@
+.Home {
+  display: flex;
+  border: 1px solid red;
+  height: 95vh;
+}

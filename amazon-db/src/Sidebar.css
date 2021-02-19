@@ -1,0 +1,30 @@
+.sidebar {
+  border: 1px solid lightgray;
+  width: 250px;
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 400px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.option_sidebar {
+  display: flex;
+  align-items: center;
+  color: rgb(18, 112, 156);
+  margin-bottom: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.option_sidebar > p {
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+.arrow {
+  font-size: 15px !important;
+}
