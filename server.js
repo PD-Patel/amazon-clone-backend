@@ -14,7 +14,7 @@ const port = process.env.PORT || 8000;
 
 // Middlewares
 app.use(express.json());
-app.use(cors({ origin: "https://nervous-banach-e9f840.netlify.app/" }));
+app.use(cors());
 
 // connection url
 
